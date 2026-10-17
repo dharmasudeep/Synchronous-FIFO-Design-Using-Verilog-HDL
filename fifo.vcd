@@ -1,0 +1,169 @@
+$date
+	Sat Oct 17 12:59:52 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_sync_fifo $end
+$var wire 1 ! full $end
+$var wire 1 " empty $end
+$var wire 8 # data_out [7:0] $end
+$var reg 1 $ clk $end
+$var reg 8 % data_in [7:0] $end
+$var reg 1 & rd_en $end
+$var reg 1 ' rst $end
+$var reg 1 ( wr_en $end
+$scope module dut $end
+$var wire 1 $ clk $end
+$var wire 8 ) data_in [7:0] $end
+$var wire 1 & rd_en $end
+$var wire 1 ' rst $end
+$var wire 1 ( wr_en $end
+$var wire 1 ! full $end
+$var wire 1 " empty $end
+$var reg 4 * count [3:0] $end
+$var reg 8 + data_out [7:0] $end
+$var reg 3 , rd_ptr [2:0] $end
+$var reg 3 - wr_ptr [2:0] $end
+$upscope $end
+$scope task read_data $end
+$var reg 8 . expected [7:0] $end
+$upscope $end
+$scope task write_data $end
+$var reg 8 / value [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx /
+bx .
+bx -
+bx ,
+bx +
+bx *
+b0 )
+0(
+1'
+0&
+b0 %
+0$
+bx #
+x"
+x!
+$end
+#5000
+b0 #
+b0 +
+0!
+1"
+b0 *
+b0 ,
+b0 -
+1$
+#10000
+0$
+#15000
+1$
+#20000
+0'
+0$
+#21000
+b1010 /
+#25000
+1$
+#30000
+1(
+b1010 %
+b1010 )
+0$
+#35000
+0"
+b1 *
+b1 -
+1$
+#40000
+b10100 /
+0(
+0$
+#45000
+1$
+#50000
+1(
+b10100 %
+b10100 )
+0$
+#55000
+b10 *
+b10 -
+1$
+#60000
+b11110 /
+0(
+0$
+#65000
+1$
+#70000
+1(
+b11110 %
+b11110 )
+0$
+#75000
+b11 *
+b11 -
+1$
+#80000
+b1010 .
+0(
+0$
+#85000
+1$
+#90000
+1&
+0$
+#95000
+b10 *
+b1 ,
+b1010 #
+b1010 +
+1$
+#100000
+b10100 .
+0&
+0$
+#105000
+1$
+#110000
+1&
+0$
+#115000
+b1 *
+b10 ,
+b10100 #
+b10100 +
+1$
+#120000
+b11110 .
+0&
+0$
+#125000
+1$
+#130000
+1&
+0$
+#135000
+1"
+b0 *
+b11 ,
+b11110 #
+b11110 +
+1$
+#140000
+0&
+0$
